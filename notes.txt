@@ -1,0 +1,68 @@
+> node -v
+- untuk cek versi node.js
+==============================
+> node 
+sama seperti "py"
+==============================
+aarow function
+const sumarizeUser = (userName, userAge, userHobby) => {
+    return 'Name is ' + userName + ', age is ' + userAge + ' and the user has hobbies: ' + userHobby 
+}
+*harus const 
+==============================
+console.log(hobbies.map(hobby => 'Hobby: '+ hobby))
+map -> loop array + transform isi 
+==============================
+hobbies.push("aaa")
+append array js, kebal dari const 
+==============================
+const copyHobby = [...hobbies]
+console.log(copyHobby)
+
+const copyPerson = {...person}
+console.log(copyPerson)
+
+copy variable 
+=============================
+callback concept
+
+const fetchData = callback => {
+    setTimeout(() => {
+        callback('Done!');
+        callback('Donex!');
+    }, 1500)
+}
+
+setTimeout(()=>{
+    console.log('Timer is DONE');
+    fetchData(text => {
+        console.log(text);
+    })
+}, 2000);
+=============================
+Promise & .then 
+
+const fetchData = () => {
+    const promise = new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve('Done!');
+        }, 1500);
+    });
+    return promise;
+};
+
+
+setTimeout(()=>{
+    console.log('Timer is DONE');
+    fetchData().then(text => {
+        console.log(text);
+        return fetchData();
+    })
+    .then(text2 => {
+        console.log(text2)
+    })
+}, 2000);
+
+console.log('Hello!');
+console.log('Hi!');
+=============================
