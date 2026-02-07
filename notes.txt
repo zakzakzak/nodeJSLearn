@@ -66,3 +66,17 @@ setTimeout(()=>{
 console.log('Hello!');
 console.log('Hi!');
 =============================
+const http = require('http');
+seperti import library di python, pada js di sebut module
+const http = require('./http');
+ketika yang akan di panggil adalah modul local '
+============================
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+    console.log(req);
+});
+
+server.listen(3000);
+-> membuat server simple 
+============================
