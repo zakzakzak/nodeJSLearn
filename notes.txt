@@ -80,3 +80,9 @@ const server = http.createServer((req, res) => {
 server.listen(3000);
 -> membuat server simple 
 ============================
+Node module system 
+module.exports = {
+    handler : requestHandler,
+    someText : 'Some hard coded text'
+};
+============================
