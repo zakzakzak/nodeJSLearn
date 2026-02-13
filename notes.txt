@@ -86,3 +86,36 @@ module.exports = {
     someText : 'Some hard coded text'
 };
 ============================
+Summary : 
+how the web works : 
+- client => request => server => response => client
+- 
+=========================-==
+NPM
+> npm init 
+untuk inisiasi project 
+
+pada package.json, ada beberapa configurasi yg bisa di jalankan 
+- membuat shortcut : 
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+- bisa dapat running hanya dengan "npm start"
+- ini bisa berguna ketika mengambil source code orang dan tidak tau mana yang menjadi file utama nya (tinggal "npm start")
+
+other command
+access, adduser, audit, bugs, cache, ci, completion,
+config, dedupe, deprecate, diff, dist-tag, docs, doctor,
+edit, exec, explain, explore, find-dupes, fund, get, help,
+help-search, hook, init, install, install-ci-test,
+install-test, link, ll, login, logout, ls, org, outdated,
+owner, pack, ping, pkg, prefix, profile, prune, publish,
+query, rebuild, repo, restart, root, run-script, sbom,
+search, set, shrinkwrap, star, stars, start, stop, team,
+test, token, uninstall, unpublish, unstar, update, version,
+view, whoami 
+
+jika membuat costum command : misal "start-server" 
+maka pada cli 
+> npm run start-server
