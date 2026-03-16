@@ -1,60 +1,59 @@
 # Node.js Learning Repository
 
-Repository ini berisi proses belajar saya mengenai **Node.js**, backend development, serta analisis kode dari berbagai repository.
+This repository contains my learning journey in **Node.js**, backend development, and code analysis from various repositories.
 
-Tujuan repo ini adalah untuk mendokumentasikan proses belajar sekaligus melatih kemampuan membaca dan memahami codebase yang dibuat oleh developer lain.
+The goal of this repository is to document my learning process while improving my ability to read and understand codebases created by other developers.
 
 ---
 
 ## 📚 udemyTraining
 
-Folder ini berisi kode dan eksperimen yang saya buat saat mengikuti **training Node.js dari Udemy**.
+This folder contains code and experiments created while following a **Node.js training course on Udemy**.
 
-Isi folder ini biasanya meliputi:
+The contents usually include:
 
-* contoh kode dari course
-* latihan implementasi konsep
-* modifikasi kode untuk memahami cara kerja fitur tertentu
+- example code from the course
+- exercises to implement concepts
+- modifications to the code to better understand how certain features work
 
-Tujuan utama folder ini adalah memahami **konsep dan fundamental Node.js**.
+The main goal of this folder is to understand the **fundamentals and core concepts of Node.js**.
 
 ---
 
 ## 🔍 reverseEngineering
 
-Folder ini berisi hasil **analisis kode dari repository lain**.
+This folder contains **analysis of code from other repositories**.
 
-Pendekatan yang digunakan:
+The approach used includes:
 
-1. Clone atau membaca repository open source
-2. Mempelajari struktur project
-3. Menganalisis flow aplikasi
-4. Menuliskan penjelasan mengenai cara kerja kode tersebut
+1. Cloning or reading open-source repositories
+2. Studying the project structure
+3. Analyzing the application flow
+4. Writing explanations about how the code works
 
-Tujuannya adalah untuk:
+The goals are to:
 
-* memahami bagaimana project Node.js dibangun di dunia nyata
-* belajar best practice dari developer lain
-* meningkatkan kemampuan membaca codebase besar
+- understand how Node.js projects are built in real-world applications
+- learn best practices from other developers
+- improve the ability to read and understand large codebases
 
 ---
 
 ## 📝 notes.txt
 
-File ini berisi catatan singkat selama proses belajar, seperti:
+This file contains short notes taken during the learning process, such as:
 
-* insight dari course
-* hal-hal yang menarik dari project yang dianalisis
-* konsep Node.js yang perlu diingat
+- insights from the course
+- interesting findings from analyzed projects
+- Node.js concepts worth remembering
 
 ---
 
 # Learning Goals
 
-Melalui repository ini :
+Through this repository, I aim to:
 
-* untuk memahami ekosistem Node.js
-* meningkatkan kemampuan membaca dan memahami codebase
-* mempelajari struktur project backend
-* mendokumentasikan proses belajar secara terstruktur
-
+- understand the Node.js ecosystem
+- improve my ability to read and understand codebases
+- learn how backend projects are structured
+- document my learning process in a structured way
